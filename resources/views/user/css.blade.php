@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8">
     <title>BBHK School</title>
+    <link rel="icon" type="image/x-icon" href="school/logo.png">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">

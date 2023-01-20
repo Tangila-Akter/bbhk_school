@@ -4,34 +4,18 @@
 @include('user.css')
 
 <body>
-    <!-- Topbar Start -->
-    <div class="container-fluid">
-
+     <!-- Topbar Start -->
+     <div class="container-fluid">
       <div class="row ">
-          <div class="col-lg-4">
-              <div class="w3-third w3-container">
-                  <strong>
-                      <a href="/">
-                          <img src="user/img/flower.jpg" class="img_logo">
-                      </a>
-                  </strong>
-                  
-                </div>
+          <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+              <a href="{{ url('home') }}">
+                  <img src="school/logo.png" class="img_logo">
+              </a>
           </div>
-          <div class="col-lg-8 text-center text-lg-center">
-              <div class="d-inline-flex align-items-center">
-                  <div class="d-inline-flex flex-column text-center pr-3 ">
-                      <p class="header"><strong style="color:#65C178;">ভূঁইয়ার বাজার হনুফা খাতুন উচ্চ বিদ্যালয়</strong><br>
+          <div class="col-sm-10 col-md-8 col-lg-10 col-xl-10 col-xxl-10 text-center ">
+              <p class=" mt-2"><h4 style="color:#65C178; ">ভূঁইয়ার বাজার হনুফা খাতুন উচ্চ বিদ্যালয়</h4><br>
                       
-                          Scince-1999</p>
-                  </div>
-                  <div class="d-inline-flex flex-column text-center px-3 border-center">
-                     
-                  </div>
-                  <div class="d-inline-flex flex-column text-center pl-3">
-                      
-                  </div>
-              </div>
+                  Scince-1999</p>
           </div>
       </div>
   </div>
